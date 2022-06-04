@@ -1,0 +1,611 @@
+#WEB3_CONNECT_MODAL_ID {
+  font-family: Ubuntu, Sans-Serif;
+}
+a.b {
+  font-family: Ubuntu, Sans-Serif;
+  word-wrap: break-word;
+}
+/* left-right margins 2% */
+div.leftmargin-2 {
+  margin-left: 2%;
+}
+div.rightmargin-2 {
+  margin-right: 2%;
+}
+/* left-right margins 1% */
+div.leftmargin-1 {
+  margin-left: 1%;
+}
+div.rightmargin-1 {
+  margin-right: 1%;
+}
+/* fade in animation */
+.fadein {
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  0% {opacity:1;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* screen width higher than 2000 px */
+@media screen and (min-width: 2000px) {
+    /* textarea  */
+    textarea {
+      height:auto;
+      max-width:60vw;
+      font-weight:400;
+      font-size: 1.2vw;
+      font-family:Ubuntu, Sans-Serif;
+      width:90%;
+      border-radius:3px;
+      line-height:1em;
+      border:none;
+      box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+      padding:3%;
+    }
+    /* langname little thingy */
+    #langName {
+      font-size: 0.4vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+      display: inline;
+    }
+    /* article padding and object padding */
+    .articleBody, .paddedBody {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .fullBody {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .halfRightPadding {
+      padding-right: 50%;
+    }
+    .blogTitleRightPadding {
+      padding-right: 90%;
+    }
+    .titleDivPadding {
+      padding-right: 2%;
+    }
+    .homepagePlaylist {
+      width: 100%;
+    }
+    /* PADDING all around */
+    .paddingAllAround {
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    .smallPaddingAllAround {
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+    /* two-col layout - messages */
+    div.leftcol-half-messages {
+      width: 43%;
+      margin-right: 1%;
+      float: none;
+    }
+    div.rightcol-half-messages {
+      width: 43%;
+      margin-left: 1%;
+      float: none;
+    }
+    /* two-col layout - messagebox */
+    div.leftcol-half-messagebox {
+      width: 66%;
+      margin-right: 1%;
+      float: none;
+    }
+    div.rightcol-half-messagebox {
+      width: 20%;
+      margin-left: 1%;
+      float: none;
+    }
+    /* article date */
+    span.articleTopInfo {
+      font-size: 0.5vw;
+    }
+    /* MULTI COLUMN LAYOUTS ---------------------- */
+    /* two-col layout */
+    div.column {
+      float: left;
+    }
+    div.leftcol {
+      width: 80%;
+    }
+    div.rightcol {
+      width: 20%;
+    }
+    div.triplecol {
+      width: 33%;
+    }
+    div.row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    /* two-col layout - HOME */
+    div.leftcol-home {
+      width: 25%;
+    }
+    div.leftcol-home-np {
+      width: 25%;
+    }
+    div.rightcol-home {
+      width: 67%;
+      margin-left: 1.5%;
+    }
+    /* two-col layout - ABOUT */
+    div.leftcol-half-about {
+      width: 48%;
+    }
+    div.rightcol-half-about {
+      width: 48%;
+    }
+    a,
+    ul,
+    p,
+    ol,
+    span {
+      font-size: 1vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    pre {
+      font-size: 0.8vw;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+    .notThatSmall {
+      font-size: 0.8vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    .smaller {
+      font-size: 0.6vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    .evenSmaller {
+      font-size: 0.45vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    a.dts, a.lts {
+      font-size: 1.2vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    figcaption,  a.figcaption {
+      font-size: 0.8vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    sup {
+      font-size: 0.5vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    a.imageSource {
+      text-align: center;
+      font-size: 0.5vw;
+      font-family: Ubuntu, Sans-Serif;
+      word-wrap: break-word;
+    }
+    h1 {
+      font-size: 2vw;
+      font-family: Ubuntu, Sans-Serif;
+      font-weight: normal;
+    }
+    .title {
+      font-size: 2.5vw;
+      font-family: Ubuntu, Sans-Serif;
+      font-weight: normal;
+    }
+    h2 {
+      font-size: 1.7vw;
+      font-family: Ubuntu, Sans-Serif;
+      font-weight: normal;
+    }
+    h3 {
+      font-size: 1.2vw;
+      font-family: Ubuntu, Sans-Serif;
+      font-weight: normal;
+    }
+    .h3 {
+      font-size: 1.2vw;
+      font-family: Ubuntu, Sans-Serif;
+      font-weight: normal;
+    }
+    h4 {
+      font-size: 1vw;
+      font-family: Ubuntu, Sans-Serif;
+      font-weight: normal;
+    }
+    .dash {
+      font-size: 1vw;
+    }
+  }
+  
+  /* screen width higher than 1000 px */
+@media screen and (max-width: 2000px) and (min-width: 1000px) {
+  /* textarea  */
+  textarea {
+    height:auto;
+    max-width:70vw;
+    font-weight:400;
+    font-size: 1.8vw;
+    font-family:Ubuntu, Sans-Serif;
+    width:90%;
+    border-radius:3px;
+    line-height:1em;
+    border:none;
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+    padding:3%;
+  }
+  /* langname little thingy */
+  #langName {
+    font-size: 0.6vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+    display: inline;
+  }
+  /* article padding and object padding */
+  .articleBody, .paddedBody {
+      padding-left: 7%;
+      padding-right: 7%;
+  }
+  .fullBody {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .halfRightPadding {
+    padding-right: 35%;
+  }
+  .blogTitleRightPadding {
+    padding-right: 83%;
+  }
+  .titleDivPadding {
+    padding-right: 5%;
+  }
+  .homepagePlaylist {
+    width: 100%;
+  }
+  /* PADDING all around */
+  .paddingAllAround {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .smallPaddingAllAround {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  /* two-col layout - messages */
+  div.leftcol-half-messages {
+    width: 43%;
+    margin-right: 1%;
+    float: none;
+  }
+  div.rightcol-half-messages {
+    width: 43%;
+    margin-left: 1%;
+    float: none;
+  }
+  /* two-col layout - messagebox */
+  div.leftcol-half-messagebox {
+    width: 66%;
+    margin-right: 1%;
+    float: none;
+  }
+  div.rightcol-half-messagebox {
+    width: 20%;
+    margin-left: 1%;
+    float: none;
+  }
+  /* article date */
+  span.articleTopInfo {
+    font-size: 0.8vw;
+  }
+  /* MULTI COLUMN LAYOUTS ---------------------- */
+  /* two-col layout */
+  div.column {
+    float: left;
+  }
+  div.leftcol {
+    width: 70%;
+  }
+  div.rightcol {
+    width: 30%;
+  }
+  div.triplecol {
+    width: 33%;
+  }
+  div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  a,
+  ul,
+  p,
+  ol,
+  span {
+    font-size: 1.6vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  pre {
+    font-size: 1.2vw;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  .notThatSmall {
+    font-size: 1.3vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  .smaller {
+    font-size: 1.2vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  .evenSmaller {
+    font-size: 1vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  a.dts, a.lts {
+    font-size: 1.8vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  figcaption, a.figcaption {
+    font-size: 1.3vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  sup {
+    font-size: 0.8vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  a.imageSource {
+    text-align: center;
+    font-size: 0.8vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  h1 {
+    font-size: 2.4vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  .title {
+    font-size: 3.5vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 2vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 1.8vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  .h3 {
+    font-size: 1.8vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  h4 {
+    font-size: 1.6vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+}
+/* screen width lower than 1000 px */
+@media screen and (max-width: 1000px) and (min-width: 0px) {
+  /* textarea  */
+  textarea {
+    height:auto;
+    max-width:70vw;
+    font-weight:400;
+    font-size: 4vw;
+    font-family:Ubuntu, Sans-Serif;
+    width:100%;
+    border-radius:3px;
+    line-height:1em;
+    border:none;
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+    padding:3%;
+  }
+  /* langname little thingy */
+  #langName {
+    font-size: 1.2vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+    display: inline;
+  }
+  /* article padding and object padding */
+  .articleBody, .paddedBody {
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  .fullBody {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .halfRightPadding {
+    padding-right: 10%;
+  }
+  .blogTitleRightPadding {
+    padding-right: 75%;
+  }
+  .homepagePlaylist {
+    width: 100%;
+  }
+  /* PADDING all around */
+  .paddingAllAround {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .smallPaddingAllAround {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  /* two-col layout - messages */
+  div.leftcol-half-messages {
+    width: 95%;
+    margin-bottom: 1.5%;
+    float: none;
+  }
+  div.rightcol-half-messages {
+    width: 95%;
+    margin-top: 1.5%;
+    float: none;
+  }
+  /* two-col layout - messagebox */
+  div.leftcol-half-messagebox {
+    width: 95%;
+    margin-bottom: 1.5%;
+    float: none;
+  }
+  div.rightcol-half-messagebox {
+    width: 95%;
+    margin-top: 1.5%;
+    float: none;
+  }
+  /* article date */
+  span.articleTopInfo {
+    font-size: 1.6vw;
+  }
+  /* MULTI COLUMN LAYOUTS ---------------------- */
+  /* two-col layout */
+  div.column {
+    float: left;
+  }
+  div.leftcol {
+    width: 60%
+  }
+  div.rightcol {
+    width: 40%
+  }
+  div.triplecol {
+    width: 33%;
+  }
+  div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  a,
+  ul,
+  p,
+  ol,
+  span {
+    font-size: 3.2vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  pre {
+    font-size: 2.8vw;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  .notThatSmall {
+    font-size: 3vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  .smaller {
+    font-size: 2.8vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  .evenSmaller {
+    font-size: 2.2vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  a.dts, a.lts {
+    font-size: 4vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  figcaption,  a.figcaption {
+    font-size: 2.8vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  sup {
+    font-size: 1.5vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  a.imageSource {
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: Ubuntu, Sans-Serif;
+    word-wrap: break-word;
+  }
+  h1 {
+    font-size: 6vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  .title {
+    font-size: 7.5vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 5vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 4vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  .h3 {
+    font-size: 4vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+  h4 {
+    font-size: 3.5vw;
+    font-family: Ubuntu, Sans-Serif;
+    font-weight: normal;
+  }
+}
+
+.rightcol {
+  text-align: right;
+}
+
+.centered {
+  text-align: center;
+}
+
+.inline {
+  display: inline;
+}

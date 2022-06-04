@@ -1,0 +1,10 @@
+artifacts/messages.json
+artifacts/messages_metadata.json
+node_modules
+bin/contracts/messages-solc-output.json
+bin/contracts/messages.abi
+bin/contracts/messages.bin
+bin/contracts/messages.json
+vars
+contracts/artifacts/build-info/*
+contracts/artifacts/Messages_metadata.json

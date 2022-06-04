@@ -1,0 +1,1626 @@
+{
+    "1": {
+        "name": "Ethereum Mainnet",
+        "nativeAsset": "ETH"
+    },
+    "2": {
+        "name": "Expanse Network",
+        "nativeAsset": "EXP"
+    },
+    "3": {
+        "name": "Ropsten",
+        "nativeAsset": "ROP"
+    },
+    "4": {
+        "name": "Rinkeby",
+        "nativeAsset": "RIN"
+    },
+    "5": {
+        "name": "Goerli",
+        "nativeAsset": "GOR"
+    },
+    "6": {
+        "name": "Ethereum Classic Testnet Kotti",
+        "nativeAsset": "KOT"
+    },
+    "7": {
+        "name": "ThaiChain",
+        "nativeAsset": "TCH"
+    },
+    "8": {
+        "name": "Ubiq",
+        "nativeAsset": "UBQ"
+    },
+    "9": {
+        "name": "Ubiq Network Testnet",
+        "nativeAsset": "TUBQ"
+    },
+    "10": {
+        "name": "Optimism",
+        "nativeAsset": "ETH"
+    },
+    "11": {
+        "name": "Metadium Mainnet",
+        "nativeAsset": "META"
+    },
+    "12": {
+        "name": "Metadium Testnet",
+        "nativeAsset": "KAL"
+    },
+    "13": {
+        "name": "Diode Testnet Staging",
+        "nativeAsset": "sDIODE"
+    },
+    "14": {
+        "name": "Flare Mainnet",
+        "nativeAsset": "FLR"
+    },
+    "15": {
+        "name": "Diode Prenet",
+        "nativeAsset": "DIODE"
+    },
+    "16": {
+        "name": "Flare Testnet Coston",
+        "nativeAsset": "CFLR"
+    },
+    "17": {
+        "name": "ThaiChain 2.0 ThaiFi",
+        "nativeAsset": "TFI"
+    },
+    "18": {
+        "name": "ThunderCore Testnet",
+        "nativeAsset": "TST"
+    },
+    "19": {
+        "name": "Songbird Canary-Network",
+        "nativeAsset": "SGB"
+    },
+    "20": {
+        "name": "Elastos Smart Chain",
+        "nativeAsset": "ELA"
+    },
+    "21": {
+        "name": "ELA-ETH-Sidechain Testnet",
+        "nativeAsset": "tELA"
+    },
+    "22": {
+        "name": "ELA-DID-Sidechain Mainnet",
+        "nativeAsset": "ELA"
+    },
+    "23": {
+        "name": "ELA-DID-Sidechain Testnet",
+        "nativeAsset": "tELA"
+    },
+    "24": {
+        "name": "Dithereum Mainnet",
+        "nativeAsset": "DTH"
+    },
+    "25": {
+        "name": "Cronos Mainnet Beta",
+        "nativeAsset": "CRO"
+    },
+    "26": {
+        "name": "Genesis L1 testnet",
+        "nativeAsset": "L1test"
+    },
+    "27": {
+        "name": "ShibaChain",
+        "nativeAsset": "SHIB"
+    },
+    "28": {
+        "name": "Boba Network Rinkeby Testnet",
+        "nativeAsset": "ETH"
+    },
+    "29": {
+        "name": "Genesis L1",
+        "nativeAsset": "L1"
+    },
+    "30": {
+        "name": "RSK Mainnet",
+        "nativeAsset": "RBTC"
+    },
+    "31": {
+        "name": "RSK Testnet",
+        "nativeAsset": "tRBTC"
+    },
+    "32": {
+        "name": "GoodData Testnet",
+        "nativeAsset": "GooD"
+    },
+    "33": {
+        "name": "GoodData Mainnet",
+        "nativeAsset": "GooD"
+    },
+    "34": {
+        "name": "Dithereum Testnet",
+        "nativeAsset": "DTH"
+    },
+    "35": {
+        "name": "TBWG Chain",
+        "nativeAsset": "TBG"
+    },
+    "38": {
+        "name": "Valorbit",
+        "nativeAsset": "VAL"
+    },
+    "40": {
+        "name": "Telos EVM Mainnet",
+        "nativeAsset": "TLOS"
+    },
+    "41": {
+        "name": "Telos EVM Testnet",
+        "nativeAsset": "TLOS"
+    },
+    "42": {
+        "name": "Kovan",
+        "nativeAsset": "KOV"
+    },
+    "43": {
+        "name": "Darwinia Pangolin Testnet",
+        "nativeAsset": "PRING"
+    },
+    "44": {
+        "name": "Darwinia Crab Network",
+        "nativeAsset": "CRAB"
+    },
+    "45": {
+        "name": "Darwinia Pangoro Testnet",
+        "nativeAsset": "ORING"
+    },
+    "50": {
+        "name": "XinFin Network Mainnet",
+        "nativeAsset": "XDC"
+    },
+    "51": {
+        "name": "XinFin Apothem Testnet",
+        "nativeAsset": "TXDC"
+    },
+    "52": {
+        "name": "CoinEx Smart Chain Mainnet",
+        "nativeAsset": "cet"
+    },
+    "53": {
+        "name": "CoinEx Smart Chain Testnet",
+        "nativeAsset": "cett"
+    },
+    "54": {
+        "name": "Openpiece Mainnet",
+        "nativeAsset": "BELLY"
+    },
+    "55": {
+        "name": "Zyx Mainnet",
+        "nativeAsset": "ZYX"
+    },
+    "56": {
+        "name": "Binance Smart Chain Mainnet",
+        "nativeAsset": "BNB"
+    },
+    "57": {
+        "name": "Syscoin Mainnet",
+        "nativeAsset": "SYS"
+    },
+    "58": {
+        "name": "Ontology Mainnet",
+        "nativeAsset": "ONG"
+    },
+    "59": {
+        "name": "EOS Mainnet",
+        "nativeAsset": "EOS"
+    },
+    "60": {
+        "name": "GoChain",
+        "nativeAsset": "GO"
+    },
+    "61": {
+        "name": "Ethereum Classic Mainnet",
+        "nativeAsset": "ETC"
+    },
+    "62": {
+        "name": "Ethereum Classic Testnet Morden",
+        "nativeAsset": "TETC"
+    },
+    "63": {
+        "name": "Ethereum Classic Testnet Mordor",
+        "nativeAsset": "METC"
+    },
+    "64": {
+        "name": "Ellaism",
+        "nativeAsset": "ELLA"
+    },
+    "65": {
+        "name": "OKExChain Testnet",
+        "nativeAsset": "OKT"
+    },
+    "66": {
+        "name": "OKXChain Mainnet",
+        "nativeAsset": "OKT"
+    },
+    "67": {
+        "name": "DBChain Testnet",
+        "nativeAsset": "DBM"
+    },
+    "68": {
+        "name": "SoterOne Mainnet",
+        "nativeAsset": "SOTER"
+    },
+    "69": {
+        "name": "Optimism Kovan",
+        "nativeAsset": "KOR"
+    },
+    "70": {
+        "name": "Hoo Smart Chain",
+        "nativeAsset": "HOO"
+    },
+    "71": {
+        "name": "Conflux eSpace (Testnet)",
+        "nativeAsset": "CFX"
+    },
+    "74": {
+        "name": "IDChain Mainnet",
+        "nativeAsset": "EIDI"
+    },
+    "76": {
+        "name": "Mix",
+        "nativeAsset": "MIX"
+    },
+    "77": {
+        "name": "POA Network Sokol",
+        "nativeAsset": "SPOA"
+    },
+    "78": {
+        "name": "PrimusChain mainnet",
+        "nativeAsset": "PETH"
+    },
+    "79": {
+        "name": "Zenith Mainnet",
+        "nativeAsset": "ZENITH"
+    },
+    "80": {
+        "name": "GeneChain",
+        "nativeAsset": "RNA"
+    },
+    "81": {
+        "name": "Zenith Testnet (Vilnius)",
+        "nativeAsset": "VIL"
+    },
+    "82": {
+        "name": "Meter Mainnet",
+        "nativeAsset": "MTR"
+    },
+    "83": {
+        "name": "Meter Testnet",
+        "nativeAsset": "MTR"
+    },
+    "85": {
+        "name": "GateChain Testnet",
+        "nativeAsset": "GT"
+    },
+    "86": {
+        "name": "GateChain Mainnet",
+        "nativeAsset": "GT"
+    },
+    "87": {
+        "name": "Nova Network",
+        "nativeAsset": "SNT"
+    },
+    "88": {
+        "name": "TomoChain",
+        "nativeAsset": "TOMO"
+    },
+    "89": {
+        "name": "TomoChain Testnet",
+        "nativeAsset": "TOMO"
+    },
+    "90": {
+        "name": "Garizon Stage0",
+        "nativeAsset": "GAR"
+    },
+    "91": {
+        "name": "Garizon Stage1",
+        "nativeAsset": "GAR"
+    },
+    "92": {
+        "name": "Garizon Stage2",
+        "nativeAsset": "GAR"
+    },
+    "93": {
+        "name": "Garizon Stage3",
+        "nativeAsset": "GAR"
+    },
+    "95": {
+        "name": "CryptoKylin Testnet",
+        "nativeAsset": "EOS"
+    },
+    "96": {
+        "name": "NEXT Smart Chain",
+        "nativeAsset": "NEXT"
+    },
+    "97": {
+        "name": "Binance Smart Chain Testnet",
+        "nativeAsset": "tBNB"
+    },
+    "99": {
+        "name": "POA Network Core",
+        "nativeAsset": "POA"
+    },
+    "100": {
+        "name": "Gnosis Chain (formerly xDai)",
+        "nativeAsset": "xDAI"
+    },
+    "101": {
+        "name": "EtherInc",
+        "nativeAsset": "ETI"
+    },
+    "102": {
+        "name": "Web3Games Testnet",
+        "nativeAsset": "W3G"
+    },
+    "105": {
+        "name": "Web3Games Devnet",
+        "nativeAsset": "W3G"
+    },
+    "106": {
+        "name": "Velas EVM Mainnet",
+        "nativeAsset": "VLX"
+    },
+    "107": {
+        "name": "Nebula Testnet",
+        "nativeAsset": "NBX"
+    },
+    "108": {
+        "name": "ThunderCore Mainnet",
+        "nativeAsset": "TT"
+    },
+    "110": {
+        "name": "Proton Testnet",
+        "nativeAsset": "XPR"
+    },
+    "111": {
+        "name": "EtherLite Chain",
+        "nativeAsset": "ETL"
+    },
+    "122": {
+        "name": "Fuse Mainnet",
+        "nativeAsset": "FUSE"
+    },
+    "123": {
+        "name": "Fuse Sparknet",
+        "nativeAsset": "SPARK"
+    },
+    "124": {
+        "name": "Decentralized Web Mainnet",
+        "nativeAsset": "DWU"
+    },
+    "125": {
+        "name": "OYchain Testnet",
+        "nativeAsset": "OY"
+    },
+    "126": {
+        "name": "OYchain Mainnet",
+        "nativeAsset": "OY"
+    },
+    "127": {
+        "name": "Factory 127 Mainnet",
+        "nativeAsset": "FETH"
+    },
+    "128": {
+        "name": "Huobi ECO Chain Mainnet",
+        "nativeAsset": "HT"
+    },
+    "137": {
+        "name": "Polygon Mainnet",
+        "nativeAsset": "MATIC"
+    },
+    "141": {
+        "name": "Openpiece Testnet",
+        "nativeAsset": "BELLY"
+    },
+    "142": {
+        "name": "DAX CHAIN",
+        "nativeAsset": "DAX"
+    },
+    "162": {
+        "name": "Lightstreams Testnet",
+        "nativeAsset": "PHT"
+    },
+    "163": {
+        "name": "Lightstreams Mainnet",
+        "nativeAsset": "PHT"
+    },
+    "168": {
+        "name": "AIOZ Network",
+        "nativeAsset": "AIOZ"
+    },
+    "170": {
+        "name": "HOO Smart Chain Testnet",
+        "nativeAsset": "HOO"
+    },
+    "172": {
+        "name": "Latam-Blockchain Resil Testnet",
+        "nativeAsset": "usd"
+    },
+    "186": {
+        "name": "Seele Mainnet",
+        "nativeAsset": "Seele"
+    },
+    "188": {
+        "name": "BMC Mainnet",
+        "nativeAsset": "BTM"
+    },
+    "189": {
+        "name": "BMC Testnet",
+        "nativeAsset": "BTM"
+    },
+    "199": {
+        "name": "BitTorrent Chain Mainnet",
+        "nativeAsset": "BTT"
+    },
+    "200": {
+        "name": "Arbitrum on xDai",
+        "nativeAsset": "xDAI"
+    },
+    "211": {
+        "name": "Freight Trust Network",
+        "nativeAsset": "0xF"
+    },
+    "218": {
+        "name": "SoterOne Mainnet old",
+        "nativeAsset": "SOTER"
+    },
+    "222": {
+        "name": "Permission",
+        "nativeAsset": "ASK"
+    },
+    "225": {
+        "name": "LACHAIN Mainnet",
+        "nativeAsset": "LA"
+    },
+    "226": {
+        "name": "LACHAIN Testnet",
+        "nativeAsset": "TLA"
+    },
+    "246": {
+        "name": "Energy Web Chain",
+        "nativeAsset": "EWT"
+    },
+    "250": {
+        "name": "Fantom Opera",
+        "nativeAsset": "FTM"
+    },
+    "256": {
+        "name": "Huobi ECO Chain Testnet",
+        "nativeAsset": "htt"
+    },
+    "258": {
+        "name": "Setheum",
+        "nativeAsset": "SETM"
+    },
+    "262": {
+        "name": "SUR Blockchain Network",
+        "nativeAsset": "SRN"
+    },
+    "269": {
+        "name": "High Performance Blockchain",
+        "nativeAsset": "HPB"
+    },
+    "288": {
+        "name": "Boba Network",
+        "nativeAsset": "ETH"
+    },
+    "300": {
+        "name": "Optimism on Gnosis Chain",
+        "nativeAsset": "xDAI"
+    },
+    "321": {
+        "name": "KCC Mainnet",
+        "nativeAsset": "KCS"
+    },
+    "322": {
+        "name": "KCC Testnet",
+        "nativeAsset": "tKCS"
+    },
+    "333": {
+        "name": "Web3Q Mainnet",
+        "nativeAsset": "W3Q"
+    },
+    "335": {
+        "name": "DFK Chain Test",
+        "nativeAsset": "JEWEL"
+    },
+    "336": {
+        "name": "Shiden",
+        "nativeAsset": "SDN"
+    },
+    "338": {
+        "name": "Cronos Testnet",
+        "nativeAsset": "TCRO"
+    },
+    "361": {
+        "name": "Theta Mainnet",
+        "nativeAsset": "TFUEL"
+    },
+    "363": {
+        "name": "Theta Sapphire Testnet",
+        "nativeAsset": "TFUEL"
+    },
+    "364": {
+        "name": "Theta Amber Testnet",
+        "nativeAsset": "TFUEL"
+    },
+    "365": {
+        "name": "Theta Testnet",
+        "nativeAsset": "TFUEL"
+    },
+    "369": {
+        "name": "PulseChain Mainnet",
+        "nativeAsset": "PLS"
+    },
+    "385": {
+        "name": "Lisinski",
+        "nativeAsset": "LISINS"
+    },
+    "420": {
+        "name": "Optimistic Ethereum Testnet Goerli",
+        "nativeAsset": "GOR"
+    },
+    "499": {
+        "name": "Rupaya",
+        "nativeAsset": "RUPX"
+    },
+    "512": {
+        "name": "Double-A Chain Mainnet",
+        "nativeAsset": "AAC"
+    },
+    "513": {
+        "name": "Double-A Chain Testnet",
+        "nativeAsset": "AAC"
+    },
+    "534": {
+        "name": "Candle Mainnet",
+        "nativeAsset": "CNDL"
+    },
+    "555": {
+        "name": "Vela1 Chain Mainnet",
+        "nativeAsset": "CLASS"
+    },
+    "558": {
+        "name": "Tao Network",
+        "nativeAsset": "TAO"
+    },
+    "588": {
+        "name": "Metis Stardust Testnet",
+        "nativeAsset": "METIS"
+    },
+    "592": {
+        "name": "Astar",
+        "nativeAsset": "ASTR"
+    },
+    "595": {
+        "name": "Acala Mandala Testnet",
+        "nativeAsset": "mACA"
+    },
+    "596": {
+        "name": "Karura Network Testnet",
+        "nativeAsset": "KAR"
+    },
+    "597": {
+        "name": "Acala Network Testnet",
+        "nativeAsset": "ACA"
+    },
+    "600": {
+        "name": "Meshnyan testnet",
+        "nativeAsset": "MESHT"
+    },
+    "666": {
+        "name": "Pixie Chain Testnet",
+        "nativeAsset": "PCTT"
+    },
+    "686": {
+        "name": "Karura Network",
+        "nativeAsset": "KAR"
+    },
+    "700": {
+        "name": "Star Social Testnet",
+        "nativeAsset": "SNS"
+    },
+    "707": {
+        "name": "BlockChain Station Mainnet",
+        "nativeAsset": "BCS"
+    },
+    "708": {
+        "name": "BlockChain Station Testnet",
+        "nativeAsset": "tBCS"
+    },
+    "721": {
+        "name": "Factory 127 Testnet",
+        "nativeAsset": "FETH"
+    },
+    "776": {
+        "name": "OpenChain Testnet",
+        "nativeAsset": "TOPC"
+    },
+    "777": {
+        "name": "cheapETH",
+        "nativeAsset": "cTH"
+    },
+    "787": {
+        "name": "Acala Network",
+        "nativeAsset": "ACA"
+    },
+    "788": {
+        "name": "Aerochain Testnet",
+        "nativeAsset": "TAero"
+    },
+    "803": {
+        "name": "Haic",
+        "nativeAsset": "HAIC"
+    },
+    "820": {
+        "name": "Callisto Mainnet",
+        "nativeAsset": "CLO"
+    },
+    "821": {
+        "name": "Callisto Testnet",
+        "nativeAsset": "TCLO"
+    },
+    "880": {
+        "name": "Ambros Chain Mainnet",
+        "nativeAsset": "AMBROS"
+    },
+    "888": {
+        "name": "Wanchain",
+        "nativeAsset": "WAN"
+    },
+    "900": {
+        "name": "Garizon Testnet Stage0",
+        "nativeAsset": "GAR"
+    },
+    "901": {
+        "name": "Garizon Testnet Stage1",
+        "nativeAsset": "GAR"
+    },
+    "902": {
+        "name": "Garizon Testnet Stage2",
+        "nativeAsset": "GAR"
+    },
+    "903": {
+        "name": "Garizon Testnet Stage3",
+        "nativeAsset": "GAR"
+    },
+    "940": {
+        "name": "PulseChain Testnet",
+        "nativeAsset": "tPLS"
+    },
+    "941": {
+        "name": "PulseChain Testnet v2b",
+        "nativeAsset": "tPLS"
+    },
+    "942": {
+        "name": "PulseChain Testnet v3",
+        "nativeAsset": "tPLS"
+    },
+    "977": {
+        "name": "Nepal Blockchain Network",
+        "nativeAsset": "YETI"
+    },
+    "998": {
+        "name": "Lucky Network",
+        "nativeAsset": "L99"
+    },
+    "999": {
+        "name": "Wanchain Testnet",
+        "nativeAsset": "WAN"
+    },
+    "1001": {
+        "name": "Klaytn Testnet Baobab",
+        "nativeAsset": "KLAY"
+    },
+    "1007": {
+        "name": "Newton Testnet",
+        "nativeAsset": "NEW"
+    },
+    "1008": {
+        "name": "Eurus Mainnet",
+        "nativeAsset": "EUN"
+    },
+    "1010": {
+        "name": "Evrice Network",
+        "nativeAsset": "EVC"
+    },
+    "1012": {
+        "name": "Newton",
+        "nativeAsset": "NEW"
+    },
+    "1022": {
+        "name": "Sakura",
+        "nativeAsset": "SKU"
+    },
+    "1023": {
+        "name": "Clover Testnet",
+        "nativeAsset": "CLV"
+    },
+    "1024": {
+        "name": "CLV Parachain",
+        "nativeAsset": "CLV"
+    },
+    "1028": {
+        "name": "BitTorrent Chain Testnet",
+        "nativeAsset": "BTT"
+    },
+    "1030": {
+        "name": "Conflux eSpace",
+        "nativeAsset": "CFX"
+    },
+    "1088": {
+        "name": "Metis Andromeda Mainnet",
+        "nativeAsset": "METIS"
+    },
+    "1139": {
+        "name": "MathChain",
+        "nativeAsset": "MATH"
+    },
+    "1140": {
+        "name": "MathChain Testnet",
+        "nativeAsset": "MATH"
+    },
+    "1197": {
+        "name": "Iora Chain",
+        "nativeAsset": "IORA"
+    },
+    "1201": {
+        "name": "Evanesco Testnet",
+        "nativeAsset": "AVIS"
+    },
+    "1202": {
+        "name": "World Trade Technical Chain Mainnet",
+        "nativeAsset": "WTT"
+    },
+    "1213": {
+        "name": "Popcateum Mainnet",
+        "nativeAsset": "POP"
+    },
+    "1214": {
+        "name": "EnterChain Mainnet",
+        "nativeAsset": "ENTER"
+    },
+    "1280": {
+        "name": "HALO Mainnet",
+        "nativeAsset": "HO"
+    },
+    "1284": {
+        "name": "Moonbeam",
+        "nativeAsset": "GLMR"
+    },
+    "1285": {
+        "name": "Moonriver",
+        "nativeAsset": "MOVR"
+    },
+    "1286": {
+        "name": "Moonrock old",
+        "nativeAsset": "ROC"
+    },
+    "1287": {
+        "name": "Moonbase Alpha",
+        "nativeAsset": "DEV"
+    },
+    "1288": {
+        "name": "Moonrock",
+        "nativeAsset": "ROC"
+    },
+    "1337": {
+        "name": "CENNZnet old",
+        "nativeAsset": "CPAY"
+    },
+    "1618": {
+        "name": "Catecoin Chain Mainnet",
+        "nativeAsset": "CATE"
+    },
+    "1620": {
+        "name": "Atheios",
+        "nativeAsset": "ATH"
+    },
+    "1657": {
+        "name": "Btachain",
+        "nativeAsset": "BTA"
+    },
+    "1688": {
+        "name": "LUDAN Mainnet",
+        "nativeAsset": "LUDAN"
+    },
+    "1856": {
+        "name": "Teslafunds",
+        "nativeAsset": "TSF"
+    },
+    "1898": {
+        "name": "BON Network",
+        "nativeAsset": "BOY"
+    },
+    "1984": {
+        "name": "Eurus Testnet",
+        "nativeAsset": "EUN"
+    },
+    "1987": {
+        "name": "EtherGem",
+        "nativeAsset": "EGEM"
+    },
+    "2001": {
+        "name": "Milkomeda C1 Mainnet",
+        "nativeAsset": "mADA"
+    },
+    "2008": {
+        "name": "CloudWalk Testnet",
+        "nativeAsset": "CWN"
+    },
+    "2009": {
+        "name": "CloudWalk Mainnet",
+        "nativeAsset": "CWN"
+    },
+    "2020": {
+        "name": "420coin",
+        "nativeAsset": "420"
+    },
+    "2021": {
+        "name": "Edgeware Mainnet",
+        "nativeAsset": "EDG"
+    },
+    "2022": {
+        "name": "Beresheet Testnet",
+        "nativeAsset": "tEDG"
+    },
+    "2023": {
+        "name": "Taycan Testnet",
+        "nativeAsset": "tSFL"
+    },
+    "2025": {
+        "name": "Rangers Protocol Mainnet",
+        "nativeAsset": "RPG"
+    },
+    "2100": {
+        "name": "Ecoball Mainnet",
+        "nativeAsset": "ECO"
+    },
+    "2101": {
+        "name": "Ecoball Testnet Espuma",
+        "nativeAsset": "ECO"
+    },
+    "2152": {
+        "name": "Findora Mainnet",
+        "nativeAsset": "FRA"
+    },
+    "2153": {
+        "name": "Findora Testnet",
+        "nativeAsset": "FRA"
+    },
+    "2213": {
+        "name": "Evanesco Mainnet",
+        "nativeAsset": "EVA"
+    },
+    "2221": {
+        "name": "Kava EVM Testnet",
+        "nativeAsset": "KAVA"
+    },
+    "2223": {
+        "name": "VChain Mainnet",
+        "nativeAsset": "VNDT"
+    },
+    "2559": {
+        "name": "Kortho Mainnet",
+        "nativeAsset": "KTO"
+    },
+    "2569": {
+        "name": "TechPay Mainnet",
+        "nativeAsset": "TPC"
+    },
+    "2612": {
+        "name": "EZChain C-Chain Mainnet",
+        "nativeAsset": "EZC"
+    },
+    "2613": {
+        "name": "EZChain C-Chain Testnet",
+        "nativeAsset": "EZC"
+    },
+    "3000": {
+        "name": "CENNZnet Rata",
+        "nativeAsset": "CPAY"
+    },
+    "3001": {
+        "name": "CENNZnet Nikau",
+        "nativeAsset": "CPAY"
+    },
+    "3331": {
+        "name": "ZCore Testnet",
+        "nativeAsset": "ZCR"
+    },
+    "3333": {
+        "name": "Web3Q Testnet",
+        "nativeAsset": "W3Q"
+    },
+    "3334": {
+        "name": "Web3Q Galileo",
+        "nativeAsset": "W3Q"
+    },
+    "3400": {
+        "name": "Paribu Net Mainnet",
+        "nativeAsset": "PRB"
+    },
+    "3500": {
+        "name": "Paribu Net Testnet",
+        "nativeAsset": "PRB"
+    },
+    "3690": {
+        "name": "Bittex Mainnet",
+        "nativeAsset": "BTX"
+    },
+    "3966": {
+        "name": "DYNO Mainnet",
+        "nativeAsset": "DYNO"
+    },
+    "3967": {
+        "name": "DYNO Testnet",
+        "nativeAsset": "tDYNO"
+    },
+    "4002": {
+        "name": "Fantom Testnet",
+        "nativeAsset": "FTM"
+    },
+    "4102": {
+        "name": "AIOZ Network Testnet",
+        "nativeAsset": "AIOZ"
+    },
+    "4689": {
+        "name": "IoTeX Network Mainnet",
+        "nativeAsset": "IOTX"
+    },
+    "4690": {
+        "name": "IoTeX Network Testnet",
+        "nativeAsset": "IOTX"
+    },
+    "4918": {
+        "name": "Venidium Testnet",
+        "nativeAsset": "XVM"
+    },
+    "5197": {
+        "name": "EraSwap Mainnet",
+        "nativeAsset": "ES"
+    },
+    "5315": {
+        "name": "Uzmi Network Mainnet",
+        "nativeAsset": "UZMI"
+    },
+    "5551": {
+        "name": "Nahmii Mainnet",
+        "nativeAsset": "ETH"
+    },
+    "5553": {
+        "name": "Nahmii Testnet",
+        "nativeAsset": "ETH"
+    },
+    "5700": {
+        "name": "Syscoin Tanenbaum Testnet",
+        "nativeAsset": "tSYS"
+    },
+    "5777": {
+        "name": "Digest Swarm Chain",
+        "nativeAsset": "DGCC"
+    },
+    "5851": {
+        "name": "Ontology Testnet",
+        "nativeAsset": "ONG"
+    },
+    "5869": {
+        "name": "Wegochain Rubidium Mainnet",
+        "nativeAsset": "RBD"
+    },
+    "6626": {
+        "name": "Pixie Chain Mainnet",
+        "nativeAsset": "PIX"
+    },
+    "7341": {
+        "name": "Shyft Mainnet",
+        "nativeAsset": "SHYFT"
+    },
+    "7878": {
+        "name": "Hazlor Testnet",
+        "nativeAsset": "TSCAS"
+    },
+    "8000": {
+        "name": "Teleport",
+        "nativeAsset": "TELE"
+    },
+    "8001": {
+        "name": "Teleport Testnet",
+        "nativeAsset": "TELE"
+    },
+    "8029": {
+        "name": "MDGL Testnet",
+        "nativeAsset": "MDGLT"
+    },
+    "8080": {
+        "name": "GeneChain Adenine Testnet",
+        "nativeAsset": "tRNA"
+    },
+    "8217": {
+        "name": "Klaytn Mainnet Cypress",
+        "nativeAsset": "KLAY"
+    },
+    "8285": {
+        "name": "KorthoTest",
+        "nativeAsset": "KTO"
+    },
+    "8723": {
+        "name": "TOOL Global Mainnet",
+        "nativeAsset": "OLO"
+    },
+    "8724": {
+        "name": "TOOL Global Testnet",
+        "nativeAsset": "OLO"
+    },
+    "8888": {
+        "name": "Ambros Chain Testnet",
+        "nativeAsset": "AMBROS"
+    },
+    "8898": {
+        "name": "Mammoth Mainnet",
+        "nativeAsset": "MMT"
+    },
+    "8995": {
+        "name": "bloxberg",
+        "nativeAsset": "U+25B3"
+    },
+    "9000": {
+        "name": "Evmos Testnet",
+        "nativeAsset": "tEVMOS"
+    },
+    "9001": {
+        "name": "Evmos",
+        "nativeAsset": "EVMOS"
+    },
+    "9100": {
+        "name": "Genesis Coin",
+        "nativeAsset": "GNC"
+    },
+    "9527": {
+        "name": "Rangers Protocol Testnet Robin",
+        "nativeAsset": "tRPG"
+    },
+    "9999": {
+        "name": "myOwn Testnet",
+        "nativeAsset": "MYN"
+    },
+    "10000": {
+        "name": "Smart Bitcoin Cash",
+        "nativeAsset": "BCH"
+    },
+    "10001": {
+        "name": "Smart Bitcoin Cash Testnet",
+        "nativeAsset": "BCHT"
+    },
+    "10101": {
+        "name": "Blockchain Genesis Mainnet",
+        "nativeAsset": "GEN"
+    },
+    "10823": {
+        "name": "CryptoCoinPay",
+        "nativeAsset": "CCP"
+    },
+    "11111": {
+        "name": "WAGMI",
+        "nativeAsset": "WGM"
+    },
+    "11437": {
+        "name": "Shyft Testnet",
+        "nativeAsset": "SHYFTT"
+    },
+    "12051": {
+        "name": "Singularity ZERO Testnet",
+        "nativeAsset": "tZERO"
+    },
+    "12052": {
+        "name": "Singularity ZERO Mainnet",
+        "nativeAsset": "ZERO"
+    },
+    "13381": {
+        "name": "Phoenix Mainnet",
+        "nativeAsset": "PHX"
+    },
+    "16000": {
+        "name": "MetaDot Mainnet",
+        "nativeAsset": "MTT"
+    },
+    "16001": {
+        "name": "MetaDot Testnet",
+        "nativeAsset": "MTTest"
+    },
+    "19845": {
+        "name": "BTCIX Network",
+        "nativeAsset": "BTCIX"
+    },
+    "21337": {
+        "name": "CENNZnet Azalea",
+        "nativeAsset": "CPAY"
+    },
+    "21816": {
+        "name": "omChain Mainnet",
+        "nativeAsset": "OML"
+    },
+    "22023": {
+        "name": "Taycan",
+        "nativeAsset": "SFL"
+    },
+    "24484": {
+        "name": "Webchain",
+        "nativeAsset": "WEB"
+    },
+    "24734": {
+        "name": "MintMe.com Coin",
+        "nativeAsset": "MINTME"
+    },
+    "31102": {
+        "name": "Ethersocial Network",
+        "nativeAsset": "ESN"
+    },
+    "31337": {
+        "name": "GoChain Testnet",
+        "nativeAsset": "GO"
+    },
+    "32520": {
+        "name": "Bitgert Mainnet",
+        "nativeAsset": "Brise"
+    },
+    "32659": {
+        "name": "Fusion Mainnet",
+        "nativeAsset": "FSN"
+    },
+    "39797": {
+        "name": "Energi Mainnet",
+        "nativeAsset": "NRG"
+    },
+    "42069": {
+        "name": "pegglecoin",
+        "nativeAsset": "peggle"
+    },
+    "42161": {
+        "name": "Arbitrum One",
+        "nativeAsset": "ETH"
+    },
+    "42220": {
+        "name": "Celo Mainnet",
+        "nativeAsset": "CELO"
+    },
+    "42261": {
+        "name": "Emerald Paratime Testnet",
+        "nativeAsset": "ROSE"
+    },
+    "42262": {
+        "name": "Emerald Paratime Mainnet",
+        "nativeAsset": "ROSE"
+    },
+    "43110": {
+        "name": "Athereum",
+        "nativeAsset": "ATH"
+    },
+    "43113": {
+        "name": "Avalanche Fuji Testnet",
+        "nativeAsset": "AVAX"
+    },
+    "43114": {
+        "name": "Avalanche C-Chain",
+        "nativeAsset": "AVAX"
+    },
+    "44787": {
+        "name": "Celo Alfajores Testnet",
+        "nativeAsset": "CELO"
+    },
+    "45000": {
+        "name": "Autobahn Network",
+        "nativeAsset": "BNB"
+    },
+    "47805": {
+        "name": "REI Network",
+        "nativeAsset": "REI"
+    },
+    "49797": {
+        "name": "Energi Testnet",
+        "nativeAsset": "NRG"
+    },
+    "53935": {
+        "name": "DFK Chain",
+        "nativeAsset": "JEWEL"
+    },
+    "55555": {
+        "name": "REI Chain Mainnet",
+        "nativeAsset": "REI"
+    },
+    "55556": {
+        "name": "REI Chain Testnet",
+        "nativeAsset": "tREI"
+    },
+    "60000": {
+        "name": "Thinkium Testnet Chain 0",
+        "nativeAsset": "TKM"
+    },
+    "60001": {
+        "name": "Thinkium Testnet Chain 1",
+        "nativeAsset": "TKM"
+    },
+    "60002": {
+        "name": "Thinkium Testnet Chain 2",
+        "nativeAsset": "TKM"
+    },
+    "60103": {
+        "name": "Thinkium Testnet Chain 103",
+        "nativeAsset": "TKM"
+    },
+    "62320": {
+        "name": "Celo Baklava Testnet",
+        "nativeAsset": "CELO"
+    },
+    "62621": {
+        "name": "MultiVAC Mainnet",
+        "nativeAsset": "MTV"
+    },
+    "63000": {
+        "name": "eCredits Mainnet",
+        "nativeAsset": "ECS"
+    },
+    "63001": {
+        "name": "eCredits Testnet",
+        "nativeAsset": "ECS"
+    },
+    "69420": {
+        "name": "Condrieu",
+        "nativeAsset": "CTE"
+    },
+    "70000": {
+        "name": "Thinkium Mainnet Chain 0",
+        "nativeAsset": "TKM"
+    },
+    "70001": {
+        "name": "Thinkium Mainnet Chain 1",
+        "nativeAsset": "TKM"
+    },
+    "70002": {
+        "name": "Thinkium Mainnet Chain 2",
+        "nativeAsset": "TKM"
+    },
+    "70103": {
+        "name": "Thinkium Mainnet Chain 103",
+        "nativeAsset": "TKM"
+    },
+    "71393": {
+        "name": "Polyjuice Testnet",
+        "nativeAsset": "CKB"
+    },
+    "73799": {
+        "name": "Energy Web Volta Testnet",
+        "nativeAsset": "VT"
+    },
+    "78110": {
+        "name": "Firenze test network",
+        "nativeAsset": "FIN"
+    },
+    "80001": {
+        "name": "Mumbai",
+        "nativeAsset": "MATIC"
+    },
+    "99998": {
+        "name": "UB Smart Chain(testnet)",
+        "nativeAsset": "UBC"
+    },
+    "99999": {
+        "name": "UB Smart Chain",
+        "nativeAsset": "UBC"
+    },
+    "100000": {
+        "name": "QuarkChain Mainnet Root",
+        "nativeAsset": "QKC"
+    },
+    "100001": {
+        "name": "QuarkChain Mainnet Shard 0",
+        "nativeAsset": "QKC"
+    },
+    "100002": {
+        "name": "QuarkChain Mainnet Shard 1",
+        "nativeAsset": "QKC"
+    },
+    "100003": {
+        "name": "QuarkChain Mainnet Shard 2",
+        "nativeAsset": "QKC"
+    },
+    "100004": {
+        "name": "QuarkChain Mainnet Shard 3",
+        "nativeAsset": "QKC"
+    },
+    "100005": {
+        "name": "QuarkChain Mainnet Shard 4",
+        "nativeAsset": "QKC"
+    },
+    "100006": {
+        "name": "QuarkChain Mainnet Shard 5",
+        "nativeAsset": "QKC"
+    },
+    "100007": {
+        "name": "QuarkChain Mainnet Shard 6",
+        "nativeAsset": "QKC"
+    },
+    "100008": {
+        "name": "QuarkChain Mainnet Shard 7",
+        "nativeAsset": "QKC"
+    },
+    "108801": {
+        "name": "BROChain Mainnet",
+        "nativeAsset": "BRO"
+    },
+    "110000": {
+        "name": "QuarkChain Devnet Root",
+        "nativeAsset": "QKC"
+    },
+    "110001": {
+        "name": "QuarkChain Devnet Shard 0",
+        "nativeAsset": "QKC"
+    },
+    "110002": {
+        "name": "QuarkChain Devnet Shard 1",
+        "nativeAsset": "QKC"
+    },
+    "110003": {
+        "name": "QuarkChain Devnet Shard 2",
+        "nativeAsset": "QKC"
+    },
+    "110004": {
+        "name": "QuarkChain Devnet Shard 3",
+        "nativeAsset": "QKC"
+    },
+    "110005": {
+        "name": "QuarkChain Devnet Shard 4",
+        "nativeAsset": "QKC"
+    },
+    "110006": {
+        "name": "QuarkChain Devnet Shard 5",
+        "nativeAsset": "QKC"
+    },
+    "110007": {
+        "name": "QuarkChain Devnet Shard 6",
+        "nativeAsset": "QKC"
+    },
+    "110008": {
+        "name": "QuarkChain Devnet Shard 7",
+        "nativeAsset": "QKC"
+    },
+    "200101": {
+        "name": "Milkomeda C1 Testnet",
+        "nativeAsset": "mTAda"
+    },
+    "200625": {
+        "name": "Akroma",
+        "nativeAsset": "AKA"
+    },
+    "201018": {
+        "name": "Alaya Mainnet",
+        "nativeAsset": "atp"
+    },
+    "201030": {
+        "name": "Alaya Dev Testnet",
+        "nativeAsset": "atp"
+    },
+    "210425": {
+        "name": "PlatON Mainnet",
+        "nativeAsset": "lat"
+    },
+    "234666": {
+        "name": "Haymo Testnet",
+        "nativeAsset": "HYM"
+    },
+    "246529": {
+        "name": "ARTIS sigma1",
+        "nativeAsset": "ATS"
+    },
+    "246785": {
+        "name": "ARTIS Testnet tau1",
+        "nativeAsset": "tATS"
+    },
+    "281121": {
+        "name": "Social Smart Chain Mainnet",
+        "nativeAsset": "$OC"
+    },
+    "333888": {
+        "name": "Polis Testnet",
+        "nativeAsset": "tPOLIS"
+    },
+    "333999": {
+        "name": "Polis Mainnet",
+        "nativeAsset": "POLIS"
+    },
+    "421611": {
+        "name": "Arbitrum Rinkeby",
+        "nativeAsset": "ARETH"
+    },
+    "444900": {
+        "name": "Weelink Testnet",
+        "nativeAsset": "tWLK"
+    },
+    "512512": {
+        "name": "CMP-Testnet",
+        "nativeAsset": "CMP"
+    },
+    "666666": {
+        "name": "Vision - Vpioneer Test Chain",
+        "nativeAsset": "VS"
+    },
+    "888888": {
+        "name": "Vision - Mainnet",
+        "nativeAsset": "VS"
+    },
+    "955305": {
+        "name": "Eluvio Content Fabric",
+        "nativeAsset": "ELV"
+    },
+    "1313114": {
+        "name": "Etho Protocol",
+        "nativeAsset": "ETHO"
+    },
+    "1313500": {
+        "name": "Xerom",
+        "nativeAsset": "XERO"
+    },
+    "1337702": {
+        "name": "Kintsugi",
+        "nativeAsset": "kiETH"
+    },
+    "2203181": {
+        "name": "PlatON Dev Testnet",
+        "nativeAsset": "lat"
+    },
+    "7762959": {
+        "name": "Musicoin",
+        "nativeAsset": "MUSIC"
+    },
+    "11155111": {
+        "name": "Sepolia",
+        "nativeAsset": "SEP"
+    },
+    "13371337": {
+        "name": "PepChain Churchill",
+        "nativeAsset": "TPEP"
+    },
+    "18289463": {
+        "name": "IOLite",
+        "nativeAsset": "ILT"
+    },
+    "20180430": {
+        "name": "SmartMesh Mainnet",
+        "nativeAsset": "SMT"
+    },
+    "20181205": {
+        "name": "quarkblockchain",
+        "nativeAsset": "QKI"
+    },
+    "28945486": {
+        "name": "Auxilium Network Mainnet",
+        "nativeAsset": "AUX"
+    },
+    "35855456": {
+        "name": "Joys Digital Mainnet",
+        "nativeAsset": "JOYS"
+    },
+    "61717561": {
+        "name": "Aquachain",
+        "nativeAsset": "AQUA"
+    },
+    "99415706": {
+        "name": "Joys Digital TestNet",
+        "nativeAsset": "TOYS"
+    },
+    "192837465": {
+        "name": "Gather Mainnet Network",
+        "nativeAsset": "GTH"
+    },
+    "245022926": {
+        "name": "Neon EVM DevNet",
+        "nativeAsset": "NEON"
+    },
+    "245022934": {
+        "name": "Neon EVM MainNet",
+        "nativeAsset": "NEON"
+    },
+    "245022940": {
+        "name": "Neon EVM TestNet",
+        "nativeAsset": "NEON"
+    },
+    "311752642": {
+        "name": "OneLedger Mainnet",
+        "nativeAsset": "OLT"
+    },
+    "356256156": {
+        "name": "Gather Testnet Network",
+        "nativeAsset": "GTH"
+    },
+    "486217935": {
+        "name": "Gather Devnet Network",
+        "nativeAsset": "GTH"
+    },
+    "1122334455": {
+        "name": "IPOS Network",
+        "nativeAsset": "IPOS"
+    },
+    "1313161554": {
+        "name": "Aurora Mainnet",
+        "nativeAsset": "ETH"
+    },
+    "1313161555": {
+        "name": "Aurora Testnet",
+        "nativeAsset": "ETH"
+    },
+    "1313161556": {
+        "name": "Aurora Betanet",
+        "nativeAsset": "ETH"
+    },
+    "1666600000": {
+        "name": "Harmony Mainnet Shard 0",
+        "nativeAsset": "ONE"
+    },
+    "1666600001": {
+        "name": "Harmony Mainnet Shard 1",
+        "nativeAsset": "ONE"
+    },
+    "1666600002": {
+        "name": "Harmony Mainnet Shard 2",
+        "nativeAsset": "ONE"
+    },
+    "1666600003": {
+        "name": "Harmony Mainnet Shard 3",
+        "nativeAsset": "ONE"
+    },
+    "1666700000": {
+        "name": "Harmony Testnet Shard 0",
+        "nativeAsset": "ONE"
+    },
+    "1666700001": {
+        "name": "Harmony Testnet Shard 1",
+        "nativeAsset": "ONE"
+    },
+    "1666700002": {
+        "name": "Harmony Testnet Shard 2",
+        "nativeAsset": "ONE"
+    },
+    "1666700003": {
+        "name": "Harmony Testnet Shard 3",
+        "nativeAsset": "ONE"
+    },
+    "2021121117": {
+        "name": "DataHopper",
+        "nativeAsset": "HOP"
+    },
+    "3125659152": {
+        "name": "Pirl",
+        "nativeAsset": "PIRL"
+    },
+    "4216137055": {
+        "name": "OneLedger Testnet Frankenstein",
+        "nativeAsset": "OLT"
+    },
+    "11297108099": {
+        "name": "Palm Testnet",
+        "nativeAsset": "PALM"
+    },
+    "11297108109": {
+        "name": "Palm",
+        "nativeAsset": "PALM"
+    },
+    "197710212030": {
+        "name": "Ntity Mainnet",
+        "nativeAsset": "NTT"
+    },
+    "197710212031": {
+        "name": "Haradev Testnet",
+        "nativeAsset": "NTTH"
+    },
+    "6022140761023": {
+        "name": "Molereum Network",
+        "nativeAsset": "MOLE"
+    },
+    "868455272153094": {
+        "name": "Godwoken Testnet (V1)",
+        "nativeAsset": "CKB"
+    }
+}

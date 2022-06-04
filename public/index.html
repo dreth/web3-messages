@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Daniel A. | web3 messages">
+  <meta name="description" content="Post messages using your web3 wallet">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://web3-messages-express.herokuapp.com/">
+  <meta property="og:title" content="Daniel A. | web3 messages">
+  <meta property="og:description" content="Post messages using your web3 wallet">
+  <meta property="og:image" content="/assets/icons/meta.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="/assets/icons/meta.png">
+  <meta property="twitter:url" content="https://web3-messages-express.herokuapp.com/">
+  <meta property="twitter:title" content="Daniel A. | web3 messages">
+  <meta property="twitter:description" content="Post messages using your web3 wallet">
+  <meta property="twitter:image" content="/assets/icons/meta.png">
+
+  <!-- stylesheet, script, icon and font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <link rel="stylesheet" type="text/css" href="/assets/css/styles-settings.css">
+  <link rel="shortcut icon" id="icon"/>
+  <link rel="stylesheet" type="text/css" id="mainStylesheet" href="/assets/css/styles.css">
+
+  <!-- title -->
+  <script src="/assets/js/libs/jquery.js"></script>
+  <title id="projectsTitleBar">blockchain messages | Daniel A.</title>
+</head>
+
+<body class="paddedBody">
+  <div>
+    <div class="row">
+      <div class="column leftcol">
+        <a class='title' href="#" onclick="this.href = home;" oncontextmenu="this.href = home;" id="test"><h1>Daniel A.</h1></a>
+        <h3 id="projectsTitle">💬 blockchain messages</h3>
+      </div>
+      <div class="column rightcol">
+        <br>
+        <!-- Language switcher -->
+        <div class="inline">
+          <a onclick="updateLang('es')" onmouseenter="toggleLangText('es',1)" onmouseleave="toggleLangText('es',0)" class="l">🇪🇸🇩🇴</a>&nbsp;
+          <a onclick="updateLang('en')" onmouseenter="toggleLangText('en',1)" onmouseleave="toggleLangText('en',0)" class="l">🇬🇧🇺🇸</a>
+        </div>&nbsp;&nbsp;
+        <!-- Theme switcher -->
+        <div id="themeSwitcher" class="inline"></div>
+        <br><br>
+        <!-- connect wallet button -->
+        <button id="connectButton" class="colorCycleBackground cycleBackgroundFaster">
+          <span id="connectWallet">Connect wallet</span>
+        </button>
+        <button id="disconnectButton" class="colorCycleBackground cycleBackgroundFaster">
+          <span id="disconnectWallet">Disconnect wallet</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- wrong chain message -->
+  <div id="wrongChainDiv">
+    <div class="divBorder paddingAllAround centered">
+      <h3 id="wrongChainMessage">Switch to the Rinkeby Ethereum testnet</h3>
+      <button id="switchToRinkeby" class="colorCycleBackground cycleBackgroundFaster"><h3 id="switchToRinkebyButton" class="inline"></h3></button>
+      <br><br>
+    </div>
+    <br>
+  </div>
+
+  <!-- Account info -->
+  <div id="accountInfo" class="divBorder paddingAllAround centered">
+    <p id="connectedAccount"></p>
+    <p id="contractAddress"></p>
+    <p id="connectedBlockchain"></p>
+    <p id="connectedBalance"></p>
+  </div>
+  <br>
+
+  <!-- connect wallet to start message -->
+  <div id="connectWalletToStart">
+    <div class="divBorder paddingAllAround centered">
+      <h2 id="connectWalletMessage">Connect your wallet to start</h2>
+    </div>
+    <br>
+  </div>
+
+  <!-- message input -->
+  <div id="messageInputBox">
+    <div class="divBorder-rgb paddingAllAround centered">
+        <h3 id="writeMessage" class="inline"></h3>
+        <h3 id="editMessageTextarea" class="inline"></h3>
+        <br><br>
+        <textarea class="colorCycleText" type="text" id="inputBox" placeholder="Lorem Ipsum" rows="4"></textarea>
+        <br><br>
+        <button id="signMessageButton" class="colorCycleBackground cycledTextColorChange"><h3 id="postSignedMessage" class="inline"></h3></button>&nbsp;
+        <button id="storeMessageButton" class="colorCycleBackground cycledTextColorChange"><h3 id="postStoredMessage" class="inline"></h3></button>
+        <button id="editMessageButton" class="colorCycleBackground cycledTextColorChange"><h3 id="editMessage" class="inline"></h3></button>&nbsp;
+        <button id="cancelMessageEdit" class="colorCycleBackground cycledTextColorChange"><h3 id="cancelEditingMessage" class="inline"></h3></button>
+    </div>
+    <br>
+  </div>
+
+  <!-- message blocks, left is only db messages, right is blockchain msgs -->
+  <div class="row">
+
+    <!-- SIGNED MESSAGES -->
+    <div class="column leftcol-half-messages paddingAllAround divBorder">
+      <h3 id="signedMessagesLabel" class="centered"></h3>
+      <span id="signedMessagesDescription" class="smaller"></span>
+      <br><br>
+      <!-- auto update turn on/off -->
+      <div class="centered">
+        <a id="autoUpdatingSignedOn" class="b smaller"></a>
+        <a id="autoUpdatingSignedOff" class="b smaller"></a>
+        <br><br>
+      </div>
+      <div id="signedMessagesList"></div>
+      <!-- page switcher -->
+      <div id="signedMessagePageSwitcher">
+        <br>
+        <span id="pageSwitcher1"></span>
+        <a id="goBackFirstPageSigned">↩️</a> 
+        <a id="goBackOnePageSigned">⬅️</a> 
+        <a id="goForwardOnePageSigned">➡️</a> 
+        <a id="goForwardLastPageSigned">↪️</a>
+      </div>
+    </div>
+
+    <!-- STORED MESSAGES -->
+    <div class="column rightcol-half-messages paddingAllAround divBorder">
+      <h3 id="storedMessagesLabel" class="centered"></h3>
+      <span id="storedMessagesDescription" class="smaller"></span>
+      <!-- auto update turn on/off -->
+      <div id="storedMessagesAutoupdateLinks" class="centered">
+        <br>
+        <a id="autoUpdatingStoredOn" class="b smaller"></a>
+        <a id="autoUpdatingStoredOff" class="b smaller"></a>
+        <br><br>
+      </div>
+      <div id="showHideHiddenMessages" class="centered">
+        <a id="showHideHiddenMsgOn" class="b smaller"></a>
+        <a id="showHideHiddenMsgOff" class="b smaller"></a>
+        <br>
+      </div>
+      <p class="centered" id="storedMessagesNotLoaded"></p>
+      <br>
+      <div id="storedMessagesList"></div>
+      <!-- page switcher -->
+      <div id="storedMessagePageSwitcher">
+        <br>
+        <span id="pageSwitcher2"></span>
+        <a id="goBackFirstPageStored">↩️</a> 
+        <a id="goBackOnePageStored">⬅️</a> 
+        <a id="goForwardOnePageStored">➡️</a> 
+        <a id="goForwardLastPageStored">↪️</a>
+      </div>
+    </div>
+  </div>
+  
+
+  <script type="text/javascript" src="/assets/js/mainScript.js"></script>
+  <script type="text/javascript" src="/assets/js/apiCalls.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/web3modal"></script>
+  <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="/assets/js/vars.js"></script>
+  <script type="text/javascript" src="/assets/js/web3modal.js"></script>
+  <script type="text/javascript" src="/assets/js/messagesOptions.js"></script>
+  <script type="text/javascript" src="/assets/js/messagesContract.js"></script>
+  <script type="text/javascript" src="/assets/js/timers.js"></script>
+  <script type="text/javascript" src="/assets/js/addEvents.js"></script>
+  <script type="text/javascript" src="/assets/js/jointFunctions.js"></script>
+</div>
+</body>
+
+</html>

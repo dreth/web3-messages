@@ -1,0 +1,167 @@
+{
+    "content": {
+        "blockchain_messages": {
+            "en":"💬 blockchain messages",
+            "es":"💬 mensajes en el blockchain"
+        },
+        "blockchain_msg_title": {
+            "en":"blockchain messages",
+            "es":"mensajes en el blockchain"        
+        },
+        "connect_wallet": {
+            "en":"Connect wallet",
+            "es":"Conectar cartera"
+        },
+        "disconnect_wallet": {
+            "en":"Disconnect wallet",
+            "es":"Desconectar cartera"
+        },
+        "connected_account": {
+            "en":"Connected account: <span class=\"colorCycleText\" id=\"account\"></span>",
+            "es":"Cuenta conectada: <span class=\"colorCycleText\" id=\"account\"></span>"
+        },
+        "contract_address": {
+            "en":"Contract address: <span class=\"colorCycleText\" id=\"contractAddy\"></span>",
+            "es":"Dirección del contrato: <span class=\"colorCycleText\" id=\"contractAddy\"></span>"
+        },
+        "connected_blockchain": {
+            "en":"Connected blockchain: <span class=\"colorCycleText\" id=\"blockchain\"></span>",
+            "es":"Blockchain conectada: <span class=\"colorCycleText\" id=\"blockchain\"></span>"
+        },
+        "connected_balance": {
+            "en":"Account balance: <span class=\"colorCycleText\" id=\"balance\"></span>",
+            "es":"Balance de la cuenta: <span class=\"colorCycleText\" id=\"balance\"></span>"
+        },
+        "write_message": {
+            "en":"Message to post:",
+            "es":"Mensaje a publicar:"
+        },
+        "signed_messages_label": {
+            "en":"Signed messages:",
+            "es":"Mensajes firmados:"
+        },
+        "stored_messages_label": {
+            "en":"Stored messages:",
+            "es":"Mensajes guardados:"
+        },
+        "signed_messages_description": {
+            "en":"Messages which have been cryptographically signed by a wallet, but are simply stored on a JSON file in the server.",
+            "es":"Mensajes que han sido firmados criptográficamente por una cartera, pero simplemente están alojados en un archivo JSON en el servidor."
+        },
+        "stored_messages_description": {
+            "en":"Messages which require signing a transaction to write and are permanently stored on a smart contract.",
+            "es":"Mensajes que requieren confirmar una transacción para escribirlos y se alojan permanentemente en un contrato en el blockchain."
+        },
+        "post_signed_message": {
+            "en":"Sign message",
+            "es":"Firmar mensaje"
+        },
+        "post_stored_message": {
+            "en":"Store message",
+            "es":"Guardar mensaje"
+        },
+        "connect_wallet_start": {
+            "en":"Connect your wallet to start",
+            "es":"Conecte su cartera para comenzar"
+        },
+        "wrong_chain_message": {
+            "en":"Switch to the Rinkeby Ethereum test network",
+            "es":"Cambie a la red de pruebas de Rinkeby de Ethereum"
+        },
+        "switch_to_rinkeby": {
+            "en":"Click to switch to Rinkeby",
+            "es":"Haga click para cambiar a Rinkeby"
+        },
+        "stored_messages_not_loaded": {
+            "en":"Connect your wallet to start auto-updating stored messages",
+            "es":"Conecte su cartera para comenzar a auto-actualizar los mensajes guardados"
+        },
+        "page_switcher":{
+            "en":"Page: ",
+            "es":"Página: "
+        },
+        "auto_updating_on": {
+            "en":"🔄 Turn auto-updating off",
+            "es":"🔄 Desactivar auto-actualizaciones"
+        },
+        "auto_updating_off": {
+            "en":"🔄 Turn auto-updating on",
+            "es":"🔄 Activar auto-actualizaciones"
+        },
+        "rejected_signature": {
+            "en":"The signature has been rejected",
+            "es":"La firma ha sido rechazada"
+        },
+        "edit_message":{
+            "en":"Save changes",
+            "es":"Guardar cambios"
+        },
+        "edit_message_textarea":{
+            "en":"Editing message:",
+            "es":"Editando mensaje:"
+        },
+        "cancel_editing_message":{
+            "en":"Cancel editing",
+            "es":"Cancelar edición"
+        },
+        "show_hide_hidden_msg_on":{
+            "en":"👁️ Hide deleted/empty messages",
+            "es":"👁️ Ocultar mensajes borrados/vacíos"
+        },
+        "show_hide_hidden_msg_off":{
+            "en":"👁️ View deleted/empty messages",
+            "es":"👁️ Ver mensajes borrados/vacíos"
+        },
+        "theme_lang": {
+            "en":
+                {
+                    "dark":"dark",
+                    "light":"light"
+                },
+            "es":
+                {
+                    "dark":"oscuro",
+                    "light":"claro"
+                }
+        }
+    },
+    "objectIds_Field":{
+        "0": {
+            "projectsTitle":"blockchain_messages",
+            "connectWallet":"connect_wallet",
+            "disconnectWallet":"disconnect_wallet",
+            "connectedAccount":"connected_account",
+            "connectedBlockchain":"connected_blockchain",
+            "connectedBalance":"connected_balance",
+            "contractAddress":"contract_address",
+            "writeMessage":"write_message",
+            "signedMessagesLabel":"signed_messages_label",
+            "storedMessagesLabel":"stored_messages_label",
+            "signedMessagesDescription":"signed_messages_description",
+            "storedMessagesDescription":"stored_messages_description",
+            "postSignedMessage":"post_signed_message",
+            "postStoredMessage":"post_stored_message",
+            "connectWalletMessage":"connect_wallet_start",
+            "wrongChainMessage":"wrong_chain_message",
+            "switchToRinkebyButton":"switch_to_rinkeby",
+            "storedMessagesNotLoaded":"stored_messages_not_loaded",
+            "pageSwitcher1":"page_switcher",
+            "pageSwitcher2":"page_switcher",
+            "autoUpdatingSignedOn":"auto_updating_on",
+            "autoUpdatingSignedOff":"auto_updating_off",
+            "autoUpdatingStoredOn":"auto_updating_on",
+            "76196.415462351":"auto_updating_off",
+            "editMessage":"edit_message",
+            "cancelEditingMessage":"cancel_editing_message",
+            "editMessageTextarea":"edit_message_textarea",
+            "showHideHiddenMsgOn":"show_hide_hidden_msg_on",
+            "showHideHiddenMsgOff":"show_hide_hidden_msg_off"
+        },
+        "1": {
+            "themeSwitcher":"theme_lang"
+        },
+        "2": {
+            "projectsTitleBar":"blockchain_msg_title"
+        }
+    }
+}
