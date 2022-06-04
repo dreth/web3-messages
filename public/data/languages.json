@@ -112,6 +112,10 @@
             "en":"👁️ View deleted/empty messages",
             "es":"👁️ Ver mensajes borrados/vacíos"
         },
+        "gh_text":{
+            "en":"📦 Source code on <a class=\"b\" href=\"https://github.com/dreth/web3-messages\">github</a>",
+            "es":"📦 Código fuente en <a class=\"b\" href=\"https://github.com/dreth/web3-messages\">github</a>: "
+        },
         "theme_lang": {
             "en":
                 {
@@ -155,7 +159,8 @@
             "cancelEditingMessage":"cancel_editing_message",
             "editMessageTextarea":"edit_message_textarea",
             "showHideHiddenMsgOn":"show_hide_hidden_msg_on",
-            "showHideHiddenMsgOff":"show_hide_hidden_msg_off"
+            "showHideHiddenMsgOff":"show_hide_hidden_msg_off",
+            "GHText":"gh_text"
         },
         "1": {
             "themeSwitcher":"theme_lang"
