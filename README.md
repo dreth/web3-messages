@@ -1,2 +1,7 @@
-# web3-messages
-simple app to post messages to storage on the blockchain or to the internal app db signed by a web3 wallet
+# Web3 messages
+
+Simple vanilla JS app with a node+express server-side backend that allows posting messages to server storage (a JSON file) and to the blockchain (a smart contract on Rinkeby).
+
+Contracts are in `/contracts` but they are also live on rinkeby [here](https://rinkeby.etherscan.io/address/0x8d39da7823d0bec131ed7cd84f29fb1ec6f96269#code).
+
+See the app running live on: **https://web3-messages-express.herokuapp.com/**
